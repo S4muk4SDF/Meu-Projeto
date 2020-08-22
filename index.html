@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Power Tech</title>
+        <link href="css/theme.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="js/main.js" defer></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body> 
+
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">- Power Tech -</a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <!-- <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li> -->
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+
+        <section class="home">
+        </section>
+
+        <div style="height: 100px">
+            <!-- just to make scrolling effect possible -->
+            <h2 class="myH2">Matérias</h2>
+        </div>
+
+       <div class="container">
+        <div id="lista_Matérias">
+
+            <div class="matéria shadow-lg">
+                <div class="img">
+                    <img src="https://image.freepik.com/vetores-gratis/calculadora-matematica-accountant-web-icon_48369-10513.jpg">
+                </div>
+
+                <div style="height: 50px">
+                </div>
+
+                <div class="btn_Entrar">
+                    <a><button id="btn_M">Matemática</button></a>
+                </div>
+            </div>
+
+            <div class="matéria shadow-lg">
+                <div class="img">
+                    <img src="https://aulalivre.net/assets/images/steps/icone-simulado-02.png">
+                </div>
+
+                <div style="height: 50px">
+                </div>
+
+                <div class="btn_Entrar">
+                    <a><button id="btn_P">Português</button></a>
+                </div>
+            </div>
+
+            <div class="matéria shadow-lg">
+                <div class="img">
+                    <img src="https://legadoconsultoriajr.com.br/wp-content/uploads/2017/10/formula-icon.png">
+                </div>
+
+                <div style="height: 50px">
+                </div>
+
+                <div class="btn_Entrar">
+                    <a><button id="btn_Q">Química</button></a>
+                </div>
+            </div>
+
+            <div class="matéria shadow-lg">
+                <div class="img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSS25YP7qZ_Ucdi0gQMsvdlCJ8zYaiYU4tLKw&usqp=CAU">
+                </div>
+
+                <div style="height: 50px">
+                </div>
+
+                <div class="btn_Entrar">
+                    <a><button id="btn_B">Biologia</button></a>
+                </div>
+            </div>
+
+            <div class="matéria shadow-lg">
+                <div class="img">
+                    <img src="https://images.clipartlogo.com/files/istock/previews/7495/74950629-history-theme-flat-style-colorful-vector-icon-for-info-graphi.jpg">
+                </div>
+
+                <div style="height: 50px">
+                </div>
+
+                <div class="btn_Entrar">
+                    <a><button id="btn_H">História</button></a>
+                </div>
+            </div>
+
+            <div class="matéria shadow-lg">
+                <div class="img">
+                    <img src="https://www.educaland.com.br/static/images/icon-geography.png">
+                </div>
+
+                <div style="height: 50px">
+                </div>
+
+                <div class="btn_Entrar">
+                    <a><button id="btn_G">Geografia</button></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div style="height: 50px">
+        </div>
+
+       </div>
+
+    <!-- Jquery needed -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+    
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+        <script>
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+        </script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>

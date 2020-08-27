@@ -35,7 +35,7 @@
     font-size: 40px;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: springgreen solid 3px;
+    /* border: springgreen solid 3px; */
     display: flex;
     justify-content: center;
     align-items: center;

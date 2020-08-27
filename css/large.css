@@ -36,6 +36,7 @@
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: springgreen solid 3px;
+    background-color: white;
 }
 
 .carousel-item {

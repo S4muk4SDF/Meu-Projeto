@@ -44,7 +44,10 @@
 
 .subTitulo {
     text-align: center;
+}
+
+.subTitulo p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 45px;
-    padding: 30px 30px 100px 30px;
+    font-size: 70px;
+    padding: 0px 0px 15px 0px;
 }

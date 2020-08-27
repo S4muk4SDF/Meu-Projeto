@@ -37,3 +37,14 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: springgreen solid 3px;
 }
+
+.carousel-item {
+    height: 760px;
+}
+
+.subTitulo {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    padding: 30px 30px 100px 30px;
+}

@@ -6,8 +6,8 @@
 }
 
 .matéria {
-    width: 500px;
-    height: 550px;
+    width: 250px;
+    height: 330px;
     border-radius: 10px;
     margin: 10px;
 }
@@ -20,8 +20,8 @@
 }
 
 .matéria img {
-    width: 300px;
-    height: 300px; 
+    width: 200px;
+    height: 200px; 
 }
 
 .btn_Entrar {
@@ -30,12 +30,14 @@
 }
 
 .btn_Entrar button {
-    width: 250px;
-    height: 100px;
-    font-size: 40px;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: springgreen solid 3px;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel-item {
@@ -48,6 +50,6 @@
 
 .subTitulo p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 120px;
+    font-size: 90px;
     padding: 0px 0px 15px 0px;
 }

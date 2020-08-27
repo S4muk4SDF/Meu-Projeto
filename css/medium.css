@@ -6,8 +6,8 @@
 }
 
 .matéria {
-    width: 350px;
-    height: 470px;
+    width: 400px;
+    height: 500px;
     border-radius: 10px;
     margin: 10px;
 }
@@ -20,8 +20,8 @@
 }
 
 .matéria img {
-    width: 350px;
-    height: 350px; 
+    width: 320px;
+    height: 320px; 
 }
 
 .btn_Entrar {

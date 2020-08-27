@@ -6,7 +6,7 @@
 }
 
 .matéria {
-    width: 300px;
+    width: 350px;
     height: 350px;
     border-radius: 10px;
     margin: 10px;
@@ -30,12 +30,14 @@
 }
 
 .btn_Entrar button {
-    width: 150px;
+    width: 200px;
     height: 50px;
-    font-size: 25px;
+    font-size: 30px;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: springgreen solid 3px;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel-item {
@@ -48,5 +50,6 @@
 
 .subTitulo p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 90px;
+    padding: 0px 0px 15px 0px;
 }

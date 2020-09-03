@@ -1,0 +1,97 @@
+#lista_Matérias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.matéria {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.matéria img {
+    width: 200px;
+    height: 200px; 
+}
+
+.btn_Entrar {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_Entrar button {
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: springgreen solid 3px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item {
+    height: 760px;
+}
+
+.subTitulo {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.subTitulo p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 100px) and (max-width: 575.98px) {
+    /* //aqui voce colocar as propriedades que vao mudar quando a tela for desse tamanho - na real nem precisa desse "min-width: 100px", mas deixa ae hehe */
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .matéria {
+        width: 400px;
+        height: 530px;
+    }
+    
+    .img {
+        padding: 10px 0px 0px 0px;
+    }
+    
+    .matéria img {
+        width: 320px;
+        height: 320px; 
+    }
+    
+    .btn_Entrar button {
+        width: 250px;
+        height: 90px;
+        font-size: 40px;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* //coda aqui */
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1030.98px) {
+    /* //coda aqui de novo */
+}
+@media (min-width: 1030.98px) and (max-width: 1199.98px) {
+    /* //esse foi o que encontrei especialmente pra tratar dos tamanho de ipdas e ipads pro */
+}
+    /* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}	
